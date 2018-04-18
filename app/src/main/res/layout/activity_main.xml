@@ -13,53 +13,57 @@
         android:layout_height="wrap_content"
         android:text="@string/starting_life"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btn_p4_plus"
+        app:layout_constraintEnd_toStartOf="@+id/btn_p4_add1"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_p4_minus"
+        app:layout_constraintStart_toEndOf="@+id/btn_p4_sub1"
         app:layout_constraintTop_toBottomOf="@+id/txt_p4_name" />
 
     <Button
-        android:id="@+id/btn_p4_minus"
+        android:id="@+id/btn_p4_sub1"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:text="@string/minus_one"
+        android:text="@string/sub_one"
+        android:onClick="onClicker"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/txt_p4_life"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_p4_minus5"
+        app:layout_constraintStart_toEndOf="@+id/btn_p4_sub5"
         app:layout_constraintTop_toBottomOf="@+id/txt_p4_name" />
 
     <Button
-        android:id="@+id/btn_p4_plus"
+        android:id="@+id/btn_p4_add1"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:text="@string/plus_one"
+        android:text="@string/add_one"
+        android:onClick="onClicker"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btn_p4_plus5"
+        app:layout_constraintEnd_toStartOf="@+id/btn_p4_add5"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/txt_p4_life"
         app:layout_constraintTop_toBottomOf="@+id/txt_p4_name" />
 
     <Button
-        android:id="@+id/btn_p4_minus5"
+        android:id="@+id/btn_p4_sub5"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:text="@string/minus_five"
+        android:text="@string/sub_five"
+        android:onClick="onClicker"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btn_p4_minus"
+        app:layout_constraintEnd_toStartOf="@+id/btn_p4_sub1"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_p4_name" />
 
     <Button
-        android:id="@+id/btn_p4_plus5"
+        android:id="@+id/btn_p4_add5"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:text="@string/plus_five"
+        android:text="@string/add_five"
+        android:onClick="onClicker"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_p4_plus"
+        app:layout_constraintStart_toEndOf="@+id/btn_p4_add1"
         app:layout_constraintTop_toBottomOf="@+id/txt_p4_name" />
 
     <TextView
@@ -68,53 +72,57 @@
         android:layout_height="wrap_content"
         android:text="@string/starting_life"
         app:layout_constraintBottom_toTopOf="@+id/txt_p4_name"
-        app:layout_constraintEnd_toStartOf="@+id/btn_p3_plus"
+        app:layout_constraintEnd_toStartOf="@+id/btn_p3_add1"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_p3_minus"
+        app:layout_constraintStart_toEndOf="@+id/btn_p3_sub1"
         app:layout_constraintTop_toBottomOf="@+id/txt_p3_name" />
 
     <Button
-        android:id="@+id/btn_p3_minus"
+        android:id="@+id/btn_p3_sub1"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:text="@string/minus_one"
+        android:text="@string/sub_one"
+        android:onClick="onClicker"
         app:layout_constraintBottom_toTopOf="@+id/txt_p4_name"
         app:layout_constraintEnd_toStartOf="@+id/txt_p3_life"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_p3_minus5"
+        app:layout_constraintStart_toEndOf="@+id/btn_p3_sub5"
         app:layout_constraintTop_toBottomOf="@+id/txt_p3_name" />
 
     <Button
-        android:id="@+id/btn_p3_plus"
+        android:id="@+id/btn_p3_add1"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:text="@string/plus_one"
+        android:text="@string/add_one"
+        android:onClick="onClicker"
         app:layout_constraintBottom_toTopOf="@+id/txt_p4_name"
-        app:layout_constraintEnd_toStartOf="@+id/btn_p3_plus5"
+        app:layout_constraintEnd_toStartOf="@+id/btn_p3_add5"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/txt_p3_life"
         app:layout_constraintTop_toBottomOf="@+id/txt_p3_name" />
 
     <Button
-        android:id="@+id/btn_p3_minus5"
+        android:id="@+id/btn_p3_sub5"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:text="@string/minus_five"
+        android:text="@string/sub_five"
+        android:onClick="onClicker"
         app:layout_constraintBottom_toTopOf="@+id/txt_p4_name"
-        app:layout_constraintEnd_toStartOf="@+id/btn_p3_minus"
+        app:layout_constraintEnd_toStartOf="@+id/btn_p3_sub1"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_p3_name" />
 
     <Button
-        android:id="@+id/btn_p3_plus5"
+        android:id="@+id/btn_p3_add5"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:text="@string/plus_five"
+        android:text="@string/add_five"
+        android:onClick="onClicker"
         app:layout_constraintBottom_toTopOf="@+id/txt_p4_name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_p3_plus"
+        app:layout_constraintStart_toEndOf="@+id/btn_p3_add1"
         app:layout_constraintTop_toBottomOf="@+id/txt_p3_name" />
 
     <TextView
@@ -123,53 +131,57 @@
         android:layout_height="wrap_content"
         android:text="@string/starting_life"
         app:layout_constraintBottom_toTopOf="@+id/txt_p3_name"
-        app:layout_constraintEnd_toStartOf="@+id/btn_p2_plus"
+        app:layout_constraintEnd_toStartOf="@+id/btn_p2_add1"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_p2_minus"
+        app:layout_constraintStart_toEndOf="@+id/btn_p2_sub1"
         app:layout_constraintTop_toBottomOf="@+id/txt_p2_name" />
 
     <Button
-        android:id="@+id/btn_p2_minus"
+        android:id="@+id/btn_p2_sub1"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:text="@string/minus_one"
+        android:text="@string/sub_one"
+        android:onClick="onClicker"
         app:layout_constraintBottom_toTopOf="@+id/txt_p3_name"
         app:layout_constraintEnd_toStartOf="@+id/txt_p2_life"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_p2_minus5"
+        app:layout_constraintStart_toEndOf="@+id/btn_p2_sub5"
         app:layout_constraintTop_toBottomOf="@+id/txt_p2_name" />
 
     <Button
-        android:id="@+id/btn_p2_plus"
+        android:id="@+id/btn_p2_add1"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:text="@string/plus_one"
+        android:text="@string/add_one"
+        android:onClick="onClicker"
         app:layout_constraintBottom_toTopOf="@+id/txt_p3_name"
-        app:layout_constraintEnd_toStartOf="@+id/btn_p2_plus5"
+        app:layout_constraintEnd_toStartOf="@+id/btn_p2_add5"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/txt_p2_life"
         app:layout_constraintTop_toBottomOf="@+id/txt_p2_name" />
 
     <Button
-        android:id="@+id/btn_p2_minus5"
+        android:id="@+id/btn_p2_sub5"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:text="@string/minus_five"
+        android:text="@string/sub_five"
+        android:onClick="onClicker"
         app:layout_constraintBottom_toTopOf="@+id/txt_p3_name"
-        app:layout_constraintEnd_toStartOf="@+id/btn_p2_minus"
+        app:layout_constraintEnd_toStartOf="@+id/btn_p2_sub1"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_p2_name" />
 
     <Button
-        android:id="@+id/btn_p2_plus5"
+        android:id="@+id/btn_p2_add5"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:text="@string/plus_five"
+        android:text="@string/add_five"
+        android:onClick="onClicker"
         app:layout_constraintBottom_toTopOf="@+id/txt_p3_name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_p2_plus"
+        app:layout_constraintStart_toEndOf="@+id/btn_p2_add1"
         app:layout_constraintTop_toBottomOf="@+id/txt_p2_name" />
 
     <TextView
@@ -178,57 +190,57 @@
         android:layout_height="wrap_content"
         android:text="@string/starting_life"
         app:layout_constraintBottom_toTopOf="@+id/txt_p2_name"
-        app:layout_constraintEnd_toStartOf="@+id/btn_p1_plus"
+        app:layout_constraintEnd_toStartOf="@+id/btn_p1_add1"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_p1_minus"
+        app:layout_constraintStart_toEndOf="@+id/btn_p1_sub1"
         app:layout_constraintTop_toBottomOf="@+id/txt_p1_name" />
 
     <Button
-        android:id="@+id/btn_p1_minus"
+        android:id="@+id/btn_p1_sub1"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:text="@string/minus_one"
-        android:onClick="onClick"
+        android:text="@string/sub_one"
+        android:onClick="onClicker"
         app:layout_constraintBottom_toTopOf="@+id/txt_p2_name"
         app:layout_constraintEnd_toStartOf="@+id/txt_p1_life"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_p1_minus5"
+        app:layout_constraintStart_toEndOf="@+id/btn_p1_sub5"
         app:layout_constraintTop_toBottomOf="@+id/txt_p1_name" />
 
     <Button
-        android:id="@+id/btn_p1_plus"
+        android:id="@+id/btn_p1_add1"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:text="@string/plus_one"
-        android:onClick="onClick"
+        android:text="@string/add_one"
+        android:onClick="onClicker"
         app:layout_constraintBottom_toTopOf="@+id/txt_p2_name"
-        app:layout_constraintEnd_toStartOf="@+id/btn_p1_plus5"
+        app:layout_constraintEnd_toStartOf="@+id/btn_p1_add5"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/txt_p1_life"
         app:layout_constraintTop_toBottomOf="@+id/txt_p1_name" />
 
     <Button
-        android:id="@+id/btn_p1_minus5"
+        android:id="@+id/btn_p1_sub5"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:text="@string/minus_five"
-        android:onClick="onClick"
+        android:text="@string/sub_five"
+        android:onClick="onClicker"
         app:layout_constraintBottom_toTopOf="@+id/txt_p2_name"
-        app:layout_constraintEnd_toStartOf="@+id/btn_p1_minus"
+        app:layout_constraintEnd_toStartOf="@+id/btn_p1_sub1"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_p1_name" />
 
     <Button
-        android:id="@+id/btn_p1_plus5"
+        android:id="@+id/btn_p1_add5"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:text="@string/plus_five"
-        android:onClick="onClick"
+        android:text="@string/add_five"
+        android:onClick="onClicker"
         app:layout_constraintBottom_toTopOf="@+id/txt_p2_name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_p1_plus"
+        app:layout_constraintStart_toEndOf="@+id/btn_p1_add1"
         app:layout_constraintTop_toBottomOf="@+id/txt_p1_name" />
 
     <EditText
@@ -238,11 +250,11 @@
         android:ems="10"
         android:hint="Player 4"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/btn_p4_minus"
+        app:layout_constraintBottom_toTopOf="@+id/btn_p4_sub1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_p3_minus" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_p3_sub1" />
 
     <EditText
         android:id="@+id/txt_p3_name"
@@ -251,11 +263,11 @@
         android:ems="10"
         android:hint="Player 3"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/btn_p3_minus"
+        app:layout_constraintBottom_toTopOf="@+id/btn_p3_sub1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_p2_minus" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_p2_sub1" />
 
     <EditText
         android:id="@+id/txt_p2_name"
@@ -264,11 +276,11 @@
         android:ems="10"
         android:hint="Player 2"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/btn_p2_minus"
+        app:layout_constraintBottom_toTopOf="@+id/btn_p2_sub1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_p1_minus" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_p1_sub1" />
 
     <EditText
         android:id="@+id/txt_p1_name"
@@ -277,7 +289,7 @@
         android:ems="10"
         android:hint="Player 1"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/btn_p1_minus"
+        app:layout_constraintBottom_toTopOf="@+id/btn_p1_sub1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
