@@ -94,7 +94,7 @@ class MainActivity : AppCompatActivity() {
             override fun afterTextChanged(p0: Editable?) {
                 if (p2Life?.text.toString().toInt() <= 0)
                     if (p2Name?.text.toString() == "") {
-                        Toast.makeText(this@MainActivity, "Player 1 LOSES!", Toast.LENGTH_LONG).show()
+                        Toast.makeText(this@MainActivity, "Player 2 LOSES!", Toast.LENGTH_LONG).show()
                     } else {
                         Toast.makeText(this@MainActivity, "${p2Name?.text} LOSES!", Toast.LENGTH_LONG).show()
                     }
@@ -111,7 +111,7 @@ class MainActivity : AppCompatActivity() {
             override fun afterTextChanged(p0: Editable?) {
                 if (p3Life?.text.toString().toInt() <= 0)
                     if (p3Name?.text.toString() == "") {
-                        Toast.makeText(this@MainActivity, "Player 1 LOSES!", Toast.LENGTH_LONG).show()
+                        Toast.makeText(this@MainActivity, "Player 3 LOSES!", Toast.LENGTH_LONG).show()
                     } else {
                         Toast.makeText(this@MainActivity, "${p3Name?.text} LOSES!", Toast.LENGTH_LONG).show()
                     }
@@ -128,7 +128,7 @@ class MainActivity : AppCompatActivity() {
             override fun afterTextChanged(p0: Editable?) {
                 if (p4Life?.text.toString().toInt() <= 0)
                     if (p4Name?.text.toString() == "") {
-                        Toast.makeText(this@MainActivity, "Player 1 LOSES!", Toast.LENGTH_LONG).show()
+                        Toast.makeText(this@MainActivity, "Player 4 LOSES!", Toast.LENGTH_LONG).show()
                     } else {
                         Toast.makeText(this@MainActivity, "${p4Name?.text} LOSES!", Toast.LENGTH_LONG).show()
                     }
